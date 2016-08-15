@@ -7,7 +7,6 @@ body {
 	background-color: #1f1f2e;
 	background-image: url("../images/header-bg.jpg");
 }
-
 #header {
 	height: 600px;
 	line-height: 600px;
@@ -17,9 +16,20 @@ body {
 	color: #ecf0f1;
 	font-family: 'Noto Serif', serif;
 	font-size: 48px;
+	float: left;
+}
+#header h2 {
+	color: #2980b9;
+	font-family: 'Noto Serif', serif;
+	font-size: 48px;
+	float: right;
 }
 #bodyContentOne {
-	height: 300px;
+	/*background-color: #2ecc71;
+	height: 500px;*/
+}
+.revolving-text {
+	display: none;
 }
 .center-text {
 	display: inline-block;
