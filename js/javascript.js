@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         anchors:['home', 'con-one', 'con-two', 'con-three'],
-        responsive: 0;
+        scrollOverflow: true;
     });
 
     var quotes = $(".revolving-text");
