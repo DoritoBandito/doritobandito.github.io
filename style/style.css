@@ -11,14 +11,14 @@ body {
 }
 
 #header-top {
-	height: 600px;
-	line-height: 600px;
+	height: 100vh;
+	line-height: 100vh;
 	text-align: center;
 }
 .header-text h1 {
 	color: #ecf0f1;
 	font-family: 'Noto Serif', serif;
-	font-size: 48px;
+	font-size: 8vh;
 	float: right;
 }
 .header-text h2 {
