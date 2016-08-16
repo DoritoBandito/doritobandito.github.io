@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
     $('#fullpage').fullpage({
-        anchors:['home', 'con-one', 'con-two', 'con-three'];
+        anchors:['home', 'con-one', 'con-two', 'con-three'],
+        scrollOverflow: true
     });
 
     var quotes = $(".revolving-text");
