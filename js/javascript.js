@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        anchors:['home', 'con-one', 'con-two', 'con-three']
+    });
 
     var quotes = $(".revolving-text");
     var quoteIndex = -1;
