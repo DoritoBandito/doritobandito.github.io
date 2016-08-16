@@ -7,22 +7,22 @@ body {
 	background-color: #1f1f2e;
 	background-image: url("../images/header-bg.jpg");
 }
-#header {
-	height: 600px;
-	line-height: 600px;
+#header-top {
+	height: 300px;
+	line-height: 300px;
 	text-align: center;
 }
-#header h1 {
+.header-text h1 {
 	color: #ecf0f1;
 	font-family: 'Noto Serif', serif;
 	font-size: 48px;
-	float: left;
+	float: right;
 }
-#header h2 {
+.header-text h2 {
 	color: #2980b9;
 	font-family: 'Noto Serif', serif;
 	font-size: 48px;
-	float: right;
+	float: left;
 }
 #bodyContentOne {
 	/*background-color: #2ecc71;
@@ -31,11 +31,17 @@ body {
 .revolving-text {
 	display: none;
 }
-.center-text {
+.center-text-bottom {
 	display: inline-block;
-  	vertical-align: middle;
-  	line-height: normal;   
+  	vertical-align: bottom;
+  	line-height: normal;
 }
+.center-text-top {
+	display: inline-block;
+  	vertical-align: top;
+  	line-height: normal;
+}
+
 .navbar-default {
 	background-color: #1f1f2e;
 	border: 0;
