@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $('#fullpage').fullpage();
+
     var quotes = $(".revolving-text");
     var quoteIndex = -1;
 
