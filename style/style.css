@@ -8,8 +8,8 @@ body {
 	background-image: url("../images/header-bg.jpg");
 }
 #header-top {
-	height: 300px;
-	line-height: 300px;
+	height: 600px;
+	line-height: 600px;
 	text-align: center;
 }
 .header-text h1 {
@@ -31,14 +31,9 @@ body {
 .revolving-text {
 	display: none;
 }
-.center-text-bottom {
+.center-text {
 	display: inline-block;
-  	vertical-align: bottom;
-  	line-height: normal;
-}
-.center-text-top {
-	display: inline-block;
-  	vertical-align: top;
+  	vertical-align: middle;
   	line-height: normal;
 }
 
