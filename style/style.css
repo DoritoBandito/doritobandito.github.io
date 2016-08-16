@@ -2,11 +2,14 @@
     font-family: brandFont;
     src: url(../fonts/Amethyst.ttf) format('truetype');
 }
-
-body {
-	background-color: #1f1f2e;
-	background-image: url("../images/header-bg.jpg");
+body { 
+  background: url("../images/header-bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 #header-top {
 	height: 600px;
 	line-height: 600px;
@@ -23,10 +26,6 @@ body {
 	font-family: 'Noto Serif', serif;
 	font-size: 48px;
 	float: left;
-}
-#bodyContentOne {
-	/*background-color: #2ecc71;
-	height: 500px;*/
 }
 .revolving-text {
 	display: none;
