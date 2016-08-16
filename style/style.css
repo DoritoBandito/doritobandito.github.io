@@ -2,15 +2,31 @@
     font-family: brandFont;
     src: url(../fonts/Amethyst.ttf) format('truetype');
 }
-body { 
-  background: url("../images/header-bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 #header-top {
+	background: url("../images/header-bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	line-height: 100vh;
+	text-align: center;
+}
+#content-one {
+	background-color: #16a085;
+	height: 100vh;
+	line-height: 100vh;
+	text-align: center;
+}
+#content-two {
+	background-color: #1abc9c;
+	height: 100vh;
+	line-height: 100vh;
+	text-align: center;
+}
+#content-three {
+	background-color: #2ecc71;
 	height: 100vh;
 	line-height: 100vh;
 	text-align: center;
