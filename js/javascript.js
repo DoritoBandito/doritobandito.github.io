@@ -7,6 +7,10 @@ $(document).ready(function() {
     var quotes = $(".revolving-text");
     var quoteIndex = -1;
 
+    $(".navbar-header a").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+    })
+
     $(".nav a").on("click", function(){
         $(".nav").find(".active").removeClass("active");
         $(this).parent().addClass("active");
