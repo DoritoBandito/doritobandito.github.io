@@ -24,6 +24,10 @@ a {
 	font-family: 'Noto Serif', serif;
 	font-size: 8vh;
 }
+.content-one .container {
+	height: calc(100vh - 50px);
+	margin-top: 50px;
+}
 .content-two {
 	background-color: #1abc9c;
 	height: 100vh;
@@ -35,10 +39,6 @@ a {
 	height: 100vh;
 	line-height: 100vh;
 	text-align: center;
-}
-.content-one .container {
-	height: 100vh;
-	margin-top: 50px;
 }
 .header-text h1 {
 	color: #ecf0f1;
