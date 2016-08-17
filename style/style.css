@@ -68,9 +68,11 @@ a {
 .navbar-default .navbar-brand > img {
 	margin-top: -9px;
 }
-.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:hover {
+	color: white;
+}
 .navbar-default .navbar-brand:focus {
-	color: #ecdbff;
+	color: white;
 }
 .navbar-default .navbar-text {
 	color: #ecf0f1;
