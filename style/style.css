@@ -20,6 +20,11 @@ a {
 	height: 100vh;
 	font-family: 'Roboto', sans-serif;
 }
+.content-one .header-image {
+	max-width: 20vh;
+	min-width: 100px;
+	margin: 0 auto;
+}
 .content-one h1 {
 	color: #ecf0f1;
 	font-size: 8vh;
