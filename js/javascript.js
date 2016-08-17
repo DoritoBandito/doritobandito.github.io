@@ -7,7 +7,12 @@ $(document).ready(function() {
     var quotes = $(".revolving-text");
     var quoteIndex = -1;
 
-    function showNextQuote() {
+    $(".nav a").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+    });
+
+    /*function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
             .fadeIn(2000)
@@ -15,6 +20,6 @@ $(document).ready(function() {
             .fadeOut(2000, showNextQuote);
     }
 
-    showNextQuote();
+    showNextQuote();*/
 
 });
