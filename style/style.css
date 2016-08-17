@@ -18,15 +18,16 @@ a {
 .content-one {
 	background-color: #16a085;
 	height: 100vh;
+	font-family: 'Roboto', sans-serif;
 }
 .content-one h1 {
 	color: #ecf0f1;
-	font-family: 'Noto Serif', serif;
 	font-size: 8vh;
+	text-align: center;
 }
 .content-one .container {
-	height: calc(100vh - 50px);
-	margin-top: 50px;
+	height: calc(100vh - 100px);
+	margin-top: 100px;
 }
 .content-two {
 	background-color: #1abc9c;
@@ -42,13 +43,12 @@ a {
 }
 .header-text h1 {
 	color: #ecf0f1;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 8vh;
-	float: right;
 }
 .header-text h2 {
 	color: #2980b9;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
 	float: left;
 }

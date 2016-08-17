@@ -6,7 +6,7 @@ function addRemoveActive(anchor) {
 $(document).ready(function() {
 
     $('#fullpage').fullpage({
-        anchors:['home', 'about', 'con-two', 'con-three'],
+        anchors:['home', 'about', 'work', 'contact'],
         menu: '#menu'
     });
 
