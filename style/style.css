@@ -15,23 +15,30 @@ a {
 	line-height: 100vh;
 	text-align: center;
 }
-#content-one {
+.content-one {
 	background-color: #16a085;
 	height: 100vh;
-	line-height: 100vh;
-	text-align: center;
 }
-#content-two {
+.content-one h1 {
+	color: #ecf0f1;
+	font-family: 'Noto Serif', serif;
+	font-size: 8vh;
+}
+.content-two {
 	background-color: #1abc9c;
 	height: 100vh;
 	line-height: 100vh;
 	text-align: center;
 }
-#content-three {
+.content-three {
 	background-color: #2ecc71;
 	height: 100vh;
 	line-height: 100vh;
 	text-align: center;
+}
+.content-one .container {
+	height: 100vh;
+	margin-top: 50px;
 }
 .header-text h1 {
 	color: #ecf0f1;
