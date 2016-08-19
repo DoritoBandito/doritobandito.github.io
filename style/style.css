@@ -13,6 +13,11 @@
 		right: 0;
 		margin: auto auto calc(-25px) auto;
 	}
+	.content-one .container-head {
+		height: calc(20vh - 100px);
+		background-color: #2ecc71;
+		min-height: 100px;
+	}
 }
 a {
 	outline: 0;
