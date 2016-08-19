@@ -2,6 +2,18 @@
     font-family: brandFont;
     src: url(../fonts/Amethyst.ttf) format('truetype');
 }
+@media (max-height: 334px){
+	.content-one .header-image {
+		position: absolute;
+		max-height: 18vh;
+		min-height: 50px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto auto calc(-25px) auto;
+	}
+}
 a {
 	outline: 0;
 }
@@ -20,27 +32,33 @@ a {
 	height: 100vh;
 	font-family: 'Roboto', sans-serif;
 }
-.content-one .header-image-container {
-	position: absolute;
-}
 .content-one .header-image {
-	display: block;
-	max-width: 20vh;
-	min-width: 100px;
-	margin: 150% auto 0 auto;
+	position: absolute;
+	max-height: 18vh;
+	min-height: 50px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto calc(-9vh) auto;
 }
 .content-one h1 {
 	color: #ecf0f1;
 	font-size: 8vh;
 	text-align: center;
 }
+.content-one .top-half-total {
+	height: 30vh;
+	min-height: 100px;
+	position: relative;
+}
 .content-one .container-head {
-	height: 40vh;
+	height: 30vh;
 	background-color: #2ecc71;
-	min-height: 200px;
+	min-height: 100px;
 }
 .content-one .container-body {
-	height: 60vh;
+	height: 70vh;
 }
 .content-two {
 	background-color: #1abc9c;
