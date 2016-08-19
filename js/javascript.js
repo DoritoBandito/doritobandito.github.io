@@ -21,14 +21,11 @@ $(document).ready(function() {
         addRemoveActive(this);
     });
 
-    /*function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(4000)
-            .fadeOut(2000, showNextQuote);
-    }
-
-    showNextQuote();*/
-
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
 });
