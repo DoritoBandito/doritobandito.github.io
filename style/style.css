@@ -19,6 +19,11 @@
 		min-height: 100px;
 	}
 }
+@media (max-width: 480px) {
+	.content-one .container-head {
+		background: url("../images/develop_480.jpg");
+	}
+}
 @media (max-width: 800px) {
 	.content-one .container-head {
 		background: url("../images/develop_small.jpg");
