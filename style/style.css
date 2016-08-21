@@ -19,17 +19,20 @@
 		min-height: 100px;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 260px) 
+	and (max-width: 480px) {
 	#content-one-header-image {
 		background-image: url("../images/develop_480.jpg");
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 481px)
+	and (max-width: 800px) {
 	#content-one-header-image {
 		background-image: url("../images/develop_small.jpg");
 	}
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 801px)
+	and (max-width: 1280px) {
 	#content-one-header-image {
 		background-image: url("../images/develop_medium.jpg");
 	}
