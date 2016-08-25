@@ -95,6 +95,7 @@ a {
 	width: 70vw;
 	margin-left: 15vw;
 	margin-right: 15vw;
+	height: auto;
 }
 .content-one .container-body .text-box p {
 	color: #2c3e50;
