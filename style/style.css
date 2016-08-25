@@ -24,7 +24,7 @@
 	#content-one-header-image {
 		background-image: url("../images/develop_480.jpg");
 	}
-	.content-one .container-body .text-box {
+	.content-one .text-box {
 		width: 100vw;
 		margin-left: 0vw;
 		margin-right: 0vw;
@@ -35,7 +35,7 @@
 	#content-one-header-image {
 		background-image: url("../images/develop_small.jpg");
 	}
-	.content-one .container-body .text-box {
+	.content-one .text-box {
 		width: 100vw;
 		margin-left: 0vw;
 		margin-right: 0vw;
@@ -46,7 +46,7 @@
 	#content-one-header-image {
 		background-image: url("../images/develop_medium.jpg");
 	}
-	.content-one .container-body .text-box {
+	.content-one .text-box {
 		width: 100vw;
 		margin-left: 0vw;
 		margin-right: 0vw;
