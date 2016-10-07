@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAAIAVehicleReturn xmlns="http://driveright.com/">
+  <AAIAVehicleReturn>
+    <Year>string</Year>
+    <Manufacturer>string</Manufacturer>
+    <Model>string</Model>
+    <SubModel>string</SubModel>
+    <DriveType>string</DriveType>
+    <BodyType>string</BodyType>
+    <BodyNumberDoors>string</BodyNumberDoors>
+    <BedLength>string</BedLength>
+    <VehicleType>string</VehicleType>
+    <Region>string</Region>
+    <CustomNote>string</CustomNote>
+    <DRChassisID>string</DRChassisID>
+    <DRModelID>string</DRModelID>
+    <TreadType>string</TreadType>
+    <IssueNote>string</IssueNote>
+    <KW>string</KW>
+    <CC>string</CC>
+  </AAIAVehicleReturn>
+  <AAIAVehicleReturn>
+    <Year>string</Year>
+    <Manufacturer>string</Manufacturer>
+    <Model>string</Model>
+    <SubModel>string</SubModel>
+    <DriveType>string</DriveType>
+    <BodyType>string</BodyType>
+    <BodyNumberDoors>string</BodyNumberDoors>
+    <BedLength>string</BedLength>
+    <VehicleType>string</VehicleType>
+    <Region>string</Region>
+    <CustomNote>string</CustomNote>
+    <DRChassisID>string</DRChassisID>
+    <DRModelID>string</DRModelID>
+    <TreadType>string</TreadType>
+    <IssueNote>string</IssueNote>
+    <KW>string</KW>
+    <CC>string</CC>
+  </AAIAVehicleReturn>
+</ArrayOfAAIAVehicleReturn>
