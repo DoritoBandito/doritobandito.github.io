@@ -5,8 +5,8 @@
         style="width:100%;margin-left:0;" 
         class="text-xs-center"
       >
-        Status: <strong>NOT BORN</strong> 
-        <v-icon color="red" style="padding-bottom:4px;">cancel</v-icon>
+        Status: <strong>BORN</strong> 
+        <v-icon color="green" style="padding-bottom:4px;">done</v-icon>
       </v-toolbar-title>
     </v-toolbar>
     <v-content>
