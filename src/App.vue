@@ -15,30 +15,51 @@
         fill-height
       >
         <v-layout
-          column
+          row
           wrap
-          align-center
-          justify-center
         >
-          <v-card
-            class="grey darken-2"
+          <v-flex 
+            xs12
+            class="pa-2"
           >
-            <v-card-title class="grey darken-3">
-              <span class="title white--text">PROGRESS</span>
-            </v-card-title>
-            <v-divider class="grey darken-4"/>
-            <v-card-text>
-              <v-progress-circular
-                :size="200"
-                :width="10"
-                :rotate="-90"
-                :value="value"
-                :color="color()"
+            <v-card
+              width="600px"
+              class="grey darken-2"
+              style="margin: 0 auto;"
+            >
+              <v-card-text>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/be5XNUeqJZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs12>
+            <v-layout
+              column
+              wrap
+              align-center
+              justify-center
+            >
+              <v-card
+                class="grey darken-2"
               >
-                <strong :style="fontSize()">{{ value }}%</strong>
-              </v-progress-circular>
-            </v-card-text>
-          </v-card>
+                <v-card-title class="grey darken-3">
+                  <span class="title white--text">PROGRESS</span>
+                </v-card-title>
+                <v-divider class="grey darken-4"/>
+                <v-card-text>
+                  <v-progress-circular
+                    :size="200"
+                    :width="10"
+                    :rotate="-90"
+                    :value="value"
+                    :color="color()"
+                  >
+                    <strong :style="fontSize()">{{ value }}%</strong>
+                  </v-progress-circular>
+                </v-card-text>
+              </v-card>
+            </v-layout>
+          </v-flex>
         </v-layout>
       </v-container>
     </v-content>
